@@ -1,0 +1,63 @@
+/* Общие стили для сайта */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #222;
+  color: #333;
+}
+
+/* Стили для шапки с изображением */
+.header {
+  text-align: center;
+  background-color: #222;
+  padding: 10px 0;
+}
+
+.header img {
+  width: 100%;
+  max-width: 406px;
+  height: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Контейнер для основного содержимого */
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+  background: #222;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Стили для блока со стихами */
+.poem {
+  line-height: 1.6;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #222;
+}
+
+.poem p {
+  margin: 20px 0;
+  color: wheat;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+  
+  .poem {
+    font-size: 1em;
+  }
+}
